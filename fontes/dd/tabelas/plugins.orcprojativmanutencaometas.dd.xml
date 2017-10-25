@@ -1,0 +1,57 @@
+<?xml version="1.0" standalone="yes" ?>
+<table name="plugins.orcprojativmanutencaometas" description="Tabela com os valores das metas do PPA." prefix="" label="Valores metas PPA." type="0">
+  <fields>
+    <field name="sequencial"
+           conteudo="int4"
+           description="Sequencial"
+           inivalue="0"
+           label="Sequencial"
+           size="10"
+           null="f"
+           uppercase="f"
+           autocompl="f"
+           aceitatipo="1"
+           tipoobj="text"
+           labelrel="Sequencial"
+           reference=""
+           ispk="t"
+           hassequence="t">
+      <sequence name="plugins.orcprojativmanutencaometas_sequencial_seq"></sequence>
+    </field>  
+    <field name="orcprojativmetas"
+           conteudo="int4"
+           description="Sequencial da meta"
+           inivalue="0"
+           label="Sequencial da meta"
+           size="10"
+           null="f"
+           uppercase="f"
+           autocompl="f"
+           aceitatipo="1"
+           tipoobj="text"
+           labelrel="Sequencial da meta"
+           reference=""
+           ispk="f"
+           hassequence="f">
+    </field> 
+    <field name="valor"
+           conteudo="numeric"
+           description="Valor compartilhado"
+           inivalue="0"
+           label="Valor"
+           size="10"
+           null="f"
+           uppercase="f"
+           autocompl="f"
+           aceitatipo="4"
+           tipoobj="text"
+           labelrel="Valor"
+           reference=""
+           ispk="f"
+           hassequence="f">
+    </field>
+  </fields>
+  <primarykey>
+    <fieldpk name="sequencial"></fieldpk>
+  </primarykey>
+</table>

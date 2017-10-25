@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <plugin name="ManutencaoMetasPPA" label="ManutencaoMetasPPA" plugin-version="1.0" ecidade-version="2.3.50" id-modulo="116">
+    <id id="ManutencaoMetasPPA">ManutencaoMetasPPA</id>
+    <files>
+        <!-- programas -->
+        <file name="orc4_detalhamentometasPPA.php"              path="/orc4_detalhamentometasPPA.php" />
+        <file name="orc4_detalhamentometasPPA.RPC.php"          path="/orc4_detalhamentometasPPA.RPC.php" />
+
+        <!-- classes -->
+        <file name="db_orcprojativmanutencaometas_classe.php"   path="/classes/db_orcprojativmanutencaometas_classe.php" />
+
+        <!-- estrutura tabelas xml -->
+        <file name="plugins.orcprojativmanutencaometas.dd.xml"  path="/dd/tabelas/plugins.orcprojativmanutencaometas.dd.xml" />
+    </files>
+    <estrutura install="/instalacao.sql" uninstall="/desinstalacao.sql" >
+    </estrutura>
+  </plugin>
+</manifest>
